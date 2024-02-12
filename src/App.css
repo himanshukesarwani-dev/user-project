@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --primary-color: #9f70fd;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.user-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.search-box {
+  width: 30%;
+  height: 30px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 2px solid;
+  padding: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination p {
+  margin: 10px;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.user-card {
+  width: 300px;
+  padding: 30px;
+  border: 3px solid #ddd;
+  border-radius: 16px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(195, 14, 14, 0.1);
+}
+
+.user-card img {
+  width: 100%;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  margin: 0;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.Loader {
+  width: 30px;
+  height: 30px;
+  border: 5px solid white;
+  border-top-color: #86a7fc;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
