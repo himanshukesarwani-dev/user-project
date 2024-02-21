@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <nav>
         <h1 class="navbar">
-          Scizers Technologies LLP - ReactJs Internship Assignment{" "}
+    User Project.
         </h1>
       </nav>
     </div>
